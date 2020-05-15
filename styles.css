@@ -2,22 +2,75 @@ p {
     color: blue;
 }
 
-nav {
-    color: rgb(0, 0, 0);    
-    background-color: #cfd8dc
-    font-family: "Times New Roman", Times, serif;  
+.indexNav {
+    color: white;  
+    background-color: rgba(0, 0, 0, 0.075); 
 }
-
-body {
-    --stripe: #cfd8dc;
-    --bg: #e1e1e1;
-  
-    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
-      linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
-      linear-gradient(315deg, var(--bg) 25%, transparent 25%),
-      linear-gradient(45deg, var(--bg) 25%, transparent 25%);
-    background-size: 100px 100px;
-    background-color: var(--stripe);
+.aboutMeNav {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.075); 
+}
+.projectsNav {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.075);   
+}
+.contactNav {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.075);   
+}
+  .bodyindex {
+    background: 
+    radial-gradient(rgb(0, 0, 0) 3px, transparent 4px),
+    radial-gradient(red 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;   
+  }
+  .bodyAboutMe {
+    background: 
+    radial-gradient(rgb(33, 211, 255) 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;    
+  }
+  .bodyProjects {
+    background: 
+    radial-gradient(orange 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  }
+  .bodyContacts {
+    background: 
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(rgb(138, 255, 138) 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  }
+  .indexMainPhoto {
+    position: absolute;
+    right: 200px;
+    top: 30px;    
+  }
+  .indexFooter {
+    position: absolute;
+    right: 50%;
+    top: 110%;
   }
 
   
